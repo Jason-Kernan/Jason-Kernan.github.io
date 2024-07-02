@@ -1,0 +1,39 @@
+
+@import "https://unpkg.com/open-props";
+
+body{
+    background-image: var(--gradient-6);
+    height: 100vh;
+}
+
+img{
+    height: 200px;
+}
+
+h1{
+    font-family: 'Courier New';
+    font-size: 70px;
+}
+
+header{ 
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#about-me{
+    font-size: x-large;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-grow: 1;
+    font-size: 30px;
+    gap: 60px;
+    justify-content: center;
+}
