@@ -5,14 +5,14 @@ body {
     height: 100vh;
 }
 
-img {
-    height: 200px;
+header img {
+    height: 100px;
 }
 
 h1 {
     font-variant: small-caps;
     font-family: Trebuchet MS, sans-serif;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 400;
 }
 
@@ -22,7 +22,7 @@ h2 {
 }
 
 header {
-    gap: 100px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -34,12 +34,13 @@ header {
 }
 
 #about-me {
-    font-size: x-large;
+    font-size: 15px;
     margin-top: 0;
     justify-content: center;
     background-color: var(--indigo-3);
     text-align: center;
-    padding-top: 20px;;
+    padding-top: 15px;
+    font-family: Impact, fantasy;    
 }
 #about-me p{
     margin: 0;
@@ -48,17 +49,17 @@ header {
 nav {
     display: flex;
     flex-grow: 1;
-    font-size: 30px;
+    font-size: 15px;
     gap: 60px;
     justify-content: center;
     background-color: var(--indigo-3);
     text-decoration: black;
-    padding-top: 20px;
-    padding-bottom: 15px;;
+    padding-top: 10px;
+    padding-bottom: 5px;;
 }
 
 section#cards-1 {
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -67,7 +68,7 @@ section#cards-1 {
 }
 
 section#cards-2 {
-    padding-top: 40px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,14 +83,34 @@ section#cards-2 {
 #experience-line{
     align-items: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: underline;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #personal-line{
-    height: 30px;
+    align-items: center;
     text-align: center;
-    padding-top: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.card-img-top{
+    height: 150px;
+    width: 200x;
+}
+
+.card-body{
+    width: 280px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.card{
+    width: 200px;
 }
