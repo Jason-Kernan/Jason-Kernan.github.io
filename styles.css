@@ -1,6 +1,6 @@
 @import "https://unpkg.com/open-props";
 
-body {
+.normal-body{
     background-image: var(--gradient-6);
     height: 100vh;
 }
@@ -141,4 +141,18 @@ button{
     background-color:blue;
     color: aliceblue;
     border-color:cadetblue;
+}
+footer{
+    height: 100px;
+    justify-content: right;
+    display: flex;
+    padding-top: 50px;
+}
+
+footer p{
+    flex-grow: 1;
+}
+
+.white-body{
+    background-image: white;
 }
