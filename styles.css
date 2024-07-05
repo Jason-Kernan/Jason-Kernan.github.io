@@ -45,12 +45,11 @@ header {
     margin: 0;
 }
 
-nav {
+.normal-nav {
     display: flex;
     font-size: 15px;
     justify-content: center;
     background-color:var(--stone-4);
-    text-decoration: black;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -136,7 +135,7 @@ a{
     flex-grow: 1;
     padding-left: 10px;
 }
-button{
+.normal-buttons{
     width: fit-content;
     background-color:blue;
     color: aliceblue;
@@ -155,4 +154,19 @@ footer p{
 
 .white-body{
     background-image: white;
+}
+
+.white-nav{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.white-buttons{
+    width: fit-content;
+    background-color:white;
+    border-color:cadetblue;
 }
