@@ -71,3 +71,21 @@ function changeButton() {
 }
 
 buttonButtons.addEventListener("click", changeButton)
+
+
+const languages = [
+     {name:'Java', logo: 'Coffee Cup'},
+     {name:'Python', logo:'Snakes'},
+     {name:'C#', logo:'Text'},
+     {name:'vb.net', logo:'Balls and Boxes'},
+     {name:'JavaScript', logo: "JS"}
+]
+
+const languageList = document.getElementById('languages')
+
+
+for(let item of languages){
+    let newItem = document.createElement('li');
+    newItem.innerText = item.name + '-' + item.logo;
+    languageList.appendChild(newItem);
+}

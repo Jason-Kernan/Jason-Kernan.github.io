@@ -143,9 +143,9 @@ a{
 }
 footer{
     height: 100px;
-    justify-content: right;
     display: flex;
     padding-top: 50px;
+    flex-direction: column;
 }
 
 footer p{
